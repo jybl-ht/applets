@@ -1,0 +1,35 @@
+<!--pages/heroDetail/heroDetail.wxml-->
+<view class="container">
+    <view class="list">
+        <view class="heroPic">
+            <image class="" src="{{bannerList.data.photo}}"></image>
+        </view>
+        <view class="heroName">
+            <text class="">{{bannerList.data.alias}}</text>
+        </view>
+        <view class="qufu">
+            <text class="">区服:    {{bannerList.data.platform}}</text>
+        </view>
+        <view class="province">
+            <text class="">省标:    {{bannerList.data.province}}  {{bannerList.data.provincePower}}</text>
+        </view>
+        <view class="city">
+            <text class="">市标:    {{bannerList.data.city}}  {{bannerList.data.cityPower}}</text>
+        </view>
+        <view class="area">
+            <text class="">县标:    {{bannerList.data.area}}  {{bannerList.data.areaPower}}</text>
+        </view>
+        <text class="hh">切换区服:</text>
+        <view class="type">
+            <button bindtap="type1" plain style="background: {{type === 'qq'?'#FFDEE9':''}}">安卓qq</button>
+            <button bindtap="type2" plain style="background: {{type === 'ios_qq'?'#D3A1EA':''}}">苹果qq</button>
+            <button bindtap="type3" plain style="background: {{type === 'wx'?'#FF99AC':''}}">安卓vx</button>
+            <button bindtap="type4" plain style="background: {{type === 'ios_wx'?'#FAACA8':''}}">苹果vx</button>
+        </view>
+        <text class="hh">切换英雄:</text>
+        <input class="input" auto-focus placeholder="你想cosplay谁呀" bindblur="change" value="貂蝉"/>
+        <view class="search" bindtap="inputChange">
+            <text class="hhh">点击查询</text>
+        </view>
+    </view>
+</view>

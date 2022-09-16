@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/vedio/vedio",
+        "pages/heroDetail/heroDetail"
+    ],
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "window": {
+        "navigationBarBackgroundColor": "#FFDEE9",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "雪不只是天气"
+    },
+    "tabBar": {
+        "color": "#333",
+        "selectedColor": "#D3A1EA",
+        "backgroundColor": "#B5FFFC",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "同淋雪",
+                "iconPath": "/static/images/tabs/tab-home.png",
+                "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+            },
+            {
+                "pagePath": "pages/vedio/vedio",
+                "text": "共白头",
+                "iconPath": "/static/images/tabs/tab-home.png",
+                "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+            }
+        ]
+    }
+}

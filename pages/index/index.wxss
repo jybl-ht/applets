@@ -1,0 +1,44 @@
+/* pages/index/index.wxss */
+
+.allHero {
+    width: 100%;
+    /* background: #99d6c4; */
+    background-color: #FFDEE9;
+    background-image: linear-gradient(180deg, #FFDEE9 0%, #B5FFFC 50%, #d3a1ea 100%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heroItem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100rpx;
+    height: 123rpx;
+    margin: 10rpx 10rpx;
+    background: rgba(199, 148, 148, 0);
+}
+.heroItem image{
+    border-radius: 10rpx;
+    width: 100rpx;
+    height: 100rpx;
+}
+.heroItem text{
+    /* text-align: center; */
+    position: absolute;
+    top: 100rpx;
+    font-size: 23rpx;
+}
+
+.upData {
+    width: 100%;
+    height: 70rpx;
+    text-align: center;
+    /* background: #99d6c4a8; */
+}
+.upData text{
+    line-height: 70rpx;
+    font-size: 35rpx;
+    color: rgb(145, 130, 209);
+}
+
