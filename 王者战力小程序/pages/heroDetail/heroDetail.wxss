@@ -1,0 +1,60 @@
+/* pages/heroDetail/heroDetail.wxss */
+.container {
+    background-color: #FFDEE9;
+    /* background-image: linear-gradient(180deg, #FFDEE9 0%, #B5FFFC 50%, #d3a1ea 100%); */
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    position: absolute;
+    top:20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(208, 217, 225);
+}
+.list .heroPic {
+    width: 120rpx;
+    height: 120rpx;
+    margin: auto;
+    margin-bottom: 100rpx;
+}
+.list .heroPic image{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.list .heroName {
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+}
+.list .qufu {
+    text-align: center;
+    height: 100rpx;
+    line-height: 100rpx;
+}
+.list .province {
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.list .city {
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.list .area {
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+.type {
+    display: flex;
+    flex-wrap:wrap;
+}
+.type button {
+    width: 50%;
+    height: 80rpx;
+}

@@ -1,0 +1,23 @@
+<view class="indexContainer">
+    <view class="heroNavTabBar">
+        <view class="navItem" wx:for="{{sortTabbar}}" wx:key="index" wx:for-index="index">
+            <view class="{{sortNumber[index] === heroNavIndex?'activeClass':''}}" data-index="{{index}}" id="{{item}}" bindtap="changeNav">{{item}}</view>
+        </view>
+    </view>
+    <swiper class="bannerList" 	bindchange="swiperChanged" current="{{currentIndex}}" style="height:{{scrollViewHeight}}px;">
+        <block wx:for="{{sortNumber}}" wx:key="index" wx:for-index="bannerIndex">
+        <swiper-item>
+            <scroll-view class="scrollItem" scroll-y="true" enable-flex="true">
+                <view class="bb">
+                    <block wx:for="{{bannerList}}" wx:key="ename">
+                    <view class="heroItem" hidden="{{ item.hero_type != sortNumber[bannerIndex] && item.hero_type2 != sortNumber[bannerIndex]}}">
+                        <image src="{{item.iconUrl}}" id="{{item.cname}}" bindtap="toHeroDetail"></image>
+                        <text>{{item.cname}}</text>
+                    </view>
+                    </block>
+                </view>
+            </scroll-view>
+        </swiper-item>
+        </block>
+    </swiper>
+</view>

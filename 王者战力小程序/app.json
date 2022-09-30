@@ -1,0 +1,39 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/vedio/vedio",
+        "pages/heroDetail/heroDetail"
+    ],
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "window": {
+        "navigationBarBackgroundColor": "#FFDEE9",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "椒盐菠萝",
+        "backgroundTextStyle": "dark",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "color": "#9d96aa",
+        "selectedColor": "#fa436a",
+        "backgroundColor": "#d3a1ea",
+        "borderStyle": "white",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "椒盐",
+                "iconPath": "/static/images/tabs/tab-home.png",
+                "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+            },
+            {
+                "pagePath": "pages/vedio/vedio",
+                "text": "菠萝",
+                "iconPath": "/static/images/tabs/tab-home.png",
+                "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+            }
+        ]
+    }
+}
