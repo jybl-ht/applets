@@ -1,0 +1,1 @@
+{"version":3,"sources":["node-atob.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\n\nfunction atob(str) {\n  return Buffer.from(str, 'base64').toString('binary');\n}\n\nmodule.exports = atob.atob = atob;\n"]}

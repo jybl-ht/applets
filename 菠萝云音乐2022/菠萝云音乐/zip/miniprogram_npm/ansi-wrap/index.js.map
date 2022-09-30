@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\n\nmodule.exports = function(a, b, msg) {\n  return '\\u001b['+ a + 'm' + msg + '\\u001b[' + b + 'm';\n};\n"]}

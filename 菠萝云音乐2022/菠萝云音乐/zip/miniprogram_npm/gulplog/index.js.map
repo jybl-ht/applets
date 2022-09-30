@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\n\nvar getLogger = require('glogg');\n\nvar logger = getLogger('gulplog');\n\nmodule.exports = logger;\n"]}

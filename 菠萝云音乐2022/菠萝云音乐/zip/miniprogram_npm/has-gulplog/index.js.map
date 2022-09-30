@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;;;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"index.js","sourcesContent":["\n\nvar sparkles = require('sparkles');\n\nfunction hasGulplog(){\n  return sparkles.exists('gulplog');\n}\n\nmodule.exports = hasGulplog;\n"]}
